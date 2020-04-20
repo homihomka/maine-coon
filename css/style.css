@@ -40,6 +40,20 @@ img {
   clip-path: inset(100%);
 }
 
+.container {
+  position: relative;
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .section__title {
   margin: 0;
   font-style: normal;
@@ -60,20 +74,191 @@ img {
   color: #a07b50;
 }
 
+.header {
+  position: relative;
+  background-color: #151313;
+}
+
+.header__container {
+  position: relative;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.header__wrapper {
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 47px;
+  padding-bottom: 64px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider__container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+}
+
+.slider__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  box-sizing: content-box;
+}
+
+.slider-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 .pets {
   background-color: #1f1c1d;
+}
+
+.pets__tab-content-wrapper {
+  width: 100%;
+}
+
+.pets__wrapper {
+  padding-top: 223px;
+  padding-bottom: 21px;
+}
+
+.gallery {
+  display: block;
+  width: 100%;
+  max-width: 1068px;
+  height: auto;
+  margin: 0 auto 56px;
+  column-count: 2;
+  column-gap: 30px;
+  padding-left: 30px;
+}
+
+.gallery__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.gallery__layout-column {
+  margin-right: 35px;
+}
+
+.gallery__item {
+  flex-shrink: 1;
+  line-height: 0;
+  page-break-inside: avoid;
+  overflow: hidden;
+  width: 100%;
 }
 
 .breed-features {
   background-color: #1f1c1d;
 }
 
+.breed-features__wrapper {
+  position: relative;
+  padding-top: 21px;
+  padding-bottom: 129px;
+}
+
+.advantages {
+  background-color: #151313;
+}
+
+.advantages__wrapper {
+  padding-top: 83px;
+  padding-bottom: 51px;
+}
+
+.care {
+  background-color: #151313;
+}
+
+.care__wrapper {
+  padding-top: 84px;
+  padding-bottom: 51px;
+}
+
+.team {
+  background-color: #151313;
+}
+
+.team__wrapper-outer {
+  display: flex;
+  padding: 2px 90px;
+}
+
+.team__wrapper {
+  display: block;
+  padding-top: 83px;
+  padding-bottom: 70px;
+}
+
+.team__slider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .faq {
   background-color: #1f1c1d;
 }
 
+.faq__wrapper {
+  padding-top: 72px;
+  padding-bottom: 30px;
+}
+
 .reviews {
   background-color: #1f1c1d;
+}
+
+.reviews__wrapper {
+  display: block;
+  padding-top: 27px;
+  padding-bottom: 112px;
+}
+
+.footer {
+  background-color: #151313;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 72.7%;
+  padding-top: 70px;
+  padding-bottom: 59px;
 }
 
 .show {
